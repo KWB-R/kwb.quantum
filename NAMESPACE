@@ -1,0 +1,13 @@
+importFrom(kwb.utils, commaCollapsed)
+importFrom(kwb.utils, createDirAndReturnPath)
+importFrom(kwb.utils, hsSubstSpecChars)
+
+importFrom(kwb.datetime, currentQuarter)
+importFrom(kwb.datetime, currentYear)
+importFrom(kwb.datetime, to.GMT.plus.1)
+
+importFrom(RCurl, getCurlHandle)
+importFrom(RCurl, getURI)
+importFrom(RCurl, postForm)
+
+exportPattern("^[^.]")
