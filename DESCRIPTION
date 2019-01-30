@@ -2,6 +2,9 @@ Package: kwb.quantum
 Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
 Author: Hauke Sonnenberg
 Imports: kwb.datetime, kwb.utils, RCurl
+Remotes:  
+    github::kwb-r/kwb.datetime,
+    github::kwb-r/kwb.utils
 Version: 0.0.99
 License: GPL
 Title: Interface to the web portal of Quantum Hydrometrie (https://wis.quantumhydro.de/wis/)
